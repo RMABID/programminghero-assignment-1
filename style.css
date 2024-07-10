@@ -144,7 +144,7 @@ body{
 .video-player{
     width: 1140px;
     height: 777px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     text-align: center;
 }
@@ -222,4 +222,59 @@ margin-top: 12px;
 .next-plan-content p{
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+.need-support{
+    width: 1140px;
+    height: 314px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.support-content {
+   text-align: center;
+   color: rgb(255, 255, 255);
+}
+#inp{
+    width: 548px;
+    height: 58px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.support-content button{
+    width: 120px;
+    height: 58px;
+    border-radius: 10px;
+
+}
+.icon-bar{
+    width: 1140px;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+   
+}
+.icon-content{
+    margin-top: 40px;
+}
+.icon{
+    margin-top: 40px;
+    margin-left: 640px;
+    font-size: 30px;
+}
+#facebook{
+    color: rgb(0, 178, 255);
+}
+#linkedin{
+    color: rgb(36, 137, 190);
 }
