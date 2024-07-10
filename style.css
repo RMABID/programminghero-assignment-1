@@ -29,7 +29,7 @@ body{
     background-color: white;
 }
 .banner{
-    max-width: 1440px;
+    width: 1440px;
     height: 652px;
     /* border: 2px solid red; */
     background-image: url('./assets/Hero-bg.png');
@@ -49,7 +49,7 @@ body{
 .banner-section-imaget{
     width: 998px;
     height: 136px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-top: 340px;
     display: flex;
     flex-direction: column;
@@ -70,8 +70,8 @@ body{
 }
 .card-section-heading{
     width: 1140px;
-    height: 1395px;
-    border: 2px solid red;
+    height: 1175px;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 254px;
     background-color: whitesmoke;
@@ -79,13 +79,13 @@ body{
 }
 .card-content{
     text-align: center;
-    margin-top: 104px;
+    margin-top: 154px;
 }
 .card-section{
     width: 850px;
     height: 250px;
-    border: 2px solid red;
-    gap: 50px;
+    /* border: 2px solid red; */
+    /* gap: 100px; */
     margin: 0 auto;
     /* text-align: center; */
     display: flex;
@@ -98,17 +98,23 @@ body{
 }
 .card-section-content p{
     margin-top: 15px;
+    margin-left: 12px;
 }
 .card-section-content button{
     width: 150px;
     height: 38px;
     margin-top: 30px;
+    margin-left: 12px;
     background-color: white;
+    
+}
+.card-section-content h2{
+    margin-left: 12px;
 }
 .second-card-section{
     width: 850px;
     height: 250px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     /* text-align: center; */
     display: flex;
@@ -119,12 +125,42 @@ body{
 .third-section-conten{
     width: 850px;
     height: 250px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     /* text-align: center; */
     display: flex;
     background-color: white;
     box-shadow: 10px;
     gap: 40px;
-    c
+    
+}
+.third-section-conten, .second-card-section, .card-section{
+    margin-top: 50px;
+}
+
+.video-player{
+    width: 1140px;
+    height: 777px;
+    border: 2px solid red;
+    margin: 0 auto;
+    text-align: center;
+}
+.video-content h2{
+    margin-top: 80px;
+}
+.video-content p{
+margin-top: 12px;
+}
+.inspiration-video{
+    margin-top: 65px;
+}
+.target-section{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 2px solid red;
+}
+.target-section-content{
+    text-align: center;
 }
