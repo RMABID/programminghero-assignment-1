@@ -199,3 +199,27 @@ margin-top: 12px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.next-target{
+    margin-top: 70px;
+    text-align: center;
+}
+.next-target p{
+    margin-top: 20px;
+}
+.next-target-plan{
+    width: 1140px;
+    height: 220px;
+    border: 1px solid rgb(255, 242, 242);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 90px;
+    border-radius: 20px;
+}
+.next-plan-image, .next-plan-content{
+    margin-top: 50px;
+}
+.next-plan-content p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
