@@ -28,15 +28,6 @@ body{
     border-radius: 8px;
     background-color: white;
 }
-.banner-section-container{
-    margin-top: 26px;
-    /* margin-left: 654px; */
-    /* align-items: center; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .banner{
     max-width: 1440px;
     height: 652px;
@@ -45,6 +36,15 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.banner-section-container{
+    margin-top: 26px;
+    /* margin-left: 654px; */
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .banner-section-imaget{
     width: 998px;
@@ -56,9 +56,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-#h{
-    align-content: center;
-    margin-left: 200px;
+.banner-content {
+    text-align: center;
 }
 .banner-content button{
     width: 208px;
@@ -67,5 +66,65 @@ body{
     background-color: rgb(13, 19, 33);
     border-radius: 7px;
     margin-top: 32px;
-    margin-left: 360px;
+    /* margin-left: 100px; */
+}
+.card-section-heading{
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 254px;
+    background-color: whitesmoke;
+    border-radius: rgba(13, 19, 33, 0.02);
+}
+.card-content{
+    text-align: center;
+    margin-top: 104px;
+}
+.card-section{
+    width: 850px;
+    height: 250px;
+    border: 2px solid red;
+    gap: 50px;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    background-color: white;
+    box-shadow: 10px;
+}
+.card-section-content, .card-section-image{
+        margin-top: 29px;
+
+}
+.card-section-content p{
+    margin-top: 15px;
+}
+.card-section-content button{
+    width: 150px;
+    height: 38px;
+    margin-top: 30px;
+    background-color: white;
+}
+.second-card-section{
+    width: 850px;
+    height: 250px;
+    border: 2px solid red;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    background-color: white;
+    box-shadow: 10px;
+    gap: 40px;
+}
+.third-section-conten{
+    width: 850px;
+    height: 250px;
+    border: 2px solid red;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    background-color: white;
+    box-shadow: 10px;
+    gap: 40px;
+    c
 }
